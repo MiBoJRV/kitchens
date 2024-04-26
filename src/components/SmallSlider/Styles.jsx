@@ -1,6 +1,6 @@
 import styled from "styled-components";
-// import Bg1 from '../../../public/right-arr.svg';
-// import Bg2 from '../../../public//left-arr.svg';
+import Bg1 from '/right-arr.svg';
+import Bg2 from '/left-arr.svg';
 export const SwiperInner = styled.div`
   background: #EEE;
 
@@ -40,9 +40,10 @@ export const SwiperInner = styled.div`
 
     &-button-prev:after, &-button-next:after {
       color: #D4B254;
-      //display: none;
+      display: none;
     }
     &-button-next {
+      background-image: url(${Bg1});
       background-repeat: no-repeat;
       background-size: 100% auto;
       background-position: center;
@@ -55,6 +56,7 @@ export const SwiperInner = styled.div`
     }
 
     &-button-prev {
+      background-image: url(${Bg2});
       background-repeat: no-repeat;
       background-size: 100% auto;
       background-position: center;
