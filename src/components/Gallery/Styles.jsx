@@ -19,8 +19,6 @@ export const GalleryInner = styled.div`
     img {
       max-width: calc(25% - 20px);
       width: 100%;
-      min-height: 225px;
-      min-width: 225px;
       margin: 10px;
       
       @media only screen and (max-width: 991px) {
