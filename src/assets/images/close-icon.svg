@@ -1,0 +1,22 @@
+<svg
+        width="30"
+        height="30"
+        viewBox="0 0 24 26"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <path
+            d="M22.8856 2.00037L1.11438 24.0004"
+            stroke="#fff"
+            strokeWidth="2"
+            strokeLinecap="round"
+            className="group-hover:stroke-white"
+    />
+    <path
+            d="M1.11426 2L22.8855 24"
+            stroke="#fff"
+            strokeWidth="2"
+            strokeLinecap="round"
+            className="group-hover:stroke-white"
+    />
+</svg>
